@@ -1,3 +1,1 @@
-hello first test on
-this changes
-last test on git 
+Today january 5 2023 7:40 am I will start my front end online course and use this README file to track my progress, my knowlodge is shallow and the journey ahead is longer than i can imagine making me wonder if I am capable if this small feat.
