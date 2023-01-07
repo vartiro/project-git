@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS</title>
+
+        <style>
+
+            body{
+                margin:0;
+            }
+
+            h1{
+                color:red;
+            }            
+
+            p{
+                color:blue;
+            }
+
+            .p2{
+                color:green;
+            }
+
+            #id2{
+                color:yellow;
+            }
+
+            #divisao{
+                border: 1px solid red;
+                background: cadetblue;
+                width: 100%;
+            }
+
+            #span{
+                border: 1px solid black;
+            }
+
+            .green{
+                color:green
+            }
+        </style>
+    </head>
+    <body>
+<!--       
+        <h1 style="color:red">CSS: Cascading stylesheet inline</h1> <!-- the style is directly on the line 
+        <p style="color:blueviolet">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed recusandae magni incidunt porro. Laborum, dolores temporibus architecto veritatis molestias, pariatur repellendus magni unde mollitia illum sint perferendis minus. Earum, iure.
+        </p>
+
+        <h1>CSS: Cascading stylesheet internal stylesheet</h1> <!-- the style is in the head of the file
+        <h1>CSS: Cascading stylesheet internal stylesheet</h1>
+-->
+
+        <h1>Praticando CSS</h1>
+        <p class="p2"> <!-- classes make it easier to assign characteristics -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita neque aut dolorem laborum vel molestias voluptate aliquam iusto doloremque repellat sint natus quisquam, corrupti sequi cumque delectus voluptas quia?
+        </p>
+        <p class="p2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita neque aut dolorem laborum vel molestias voluptate aliquam iusto doloremque repellat sint natus quisquam, corrupti sequi cumque delectus voluptas quia?
+        </p>
+
+        <h1>Praticando CSS</h1>
+        <p id="id2"> <!-- id makes it a unique identifier -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita neque aut dolorem laborum vel molestias voluptate aliquam iusto doloremque repellat sint natus quisquam, corrupti sequi cumque delectus voluptas quia?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita neque aut dolorem laborum vel molestias voluptate aliquam iusto doloremque repellat sint natus quisquam, corrupti sequi cumque delectus voluptas quia?
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <div id="divisao"> <!-- even if its possible to use ids as classes its not a good practice -->
+            <h1>
+                É uma divisão sendo usada para dividir as areas de um site
+            </h1>
+
+            <p>
+                O css ajuda a ilustrar sua capacidade de ocupar e definir areas.
+            </p>
+        </div>
+         
+        <span id="span">Span é uma divisão so que diferente da div que ele é extremamente conciso ocupando somente o necessário</span>
+
+        <div id="divisao">
+            voce pode até colocar um <span class="green">span</span> dentro de uma div
+        </div>
+
+    </body>
+</html>
