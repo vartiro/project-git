@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #div{
+            border: 1px dotted red;
+            padding: 5px 15px 15px 5px;
+        }
+
+        #span{
+            border: 1px solid blue;
+        }
+
+        .title{
+            border-bottom: 5px solid lightblue; 
+            text-align: center;
+            font-size: 28px;
+            color: grey;
+        }  
+
+        #max_mod{
+            border-style: dashed;
+            border-width: 10px 5px 5px 10px;
+            border-radius: 15%;
+            height: 200px;
+            width: 70%;
+            margin: auto;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+        }
+
+        #max_mod span{
+            color: red;
+            display: table;
+            margin: auto;
+        }
+
+        .fonts{
+            font-size: 14px;
+            /* font-weight: normal, bold and 100 to 900*/
+            font-weight: 200;
+            font-family: "Arial", "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+            font-style: italic;
+            /* text decoration: underline, overline */
+            text-decoration: line-through; 
+        }
+
+        #background_colorimages{
+            height: 500px;
+        }
+
+        .background_color {
+            float: left;
+            width: 50%;
+            height: 100%;
+            background-color: red;
+        }
+
+        .background_image{
+            height: 100%;
+            float: left;
+            width: 50%;
+            background:blue url(../HTML/images/logo.png);
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+            background-position:right top;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+        Everything inside the dotted line is part of this div which is a inline object known as div <span id="span"> and everything inside the this solid line is a inline object known as span</span>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1 class="title">CSS help us personalize a website in various ways mostly with classes and ids</h1>
+    <p class="fonts">
+        As you can see this title is personalized with a variety of css inside the header of the code and this paragraph was personalized with a font family, style and decoration. 
+    </p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>
+        If what you need is precision don't worry css have a diversity of classes to help you, pay attention on how many modifications a sigle div can have
+    </h1>
+
+    <div id="max_mod">
+        <span>Testing</span>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div id="background_colorimages">
+        <div class="background_color">
+
+        </div>
+        <div class="background_image">
+
+        </div>
+    </div>
+</body> 
+</html>
